@@ -1,0 +1,70 @@
+/* App.css */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.card {
+  color: white;
+  background-color: #3d3936;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-placeholder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.name {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.role {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #00f165;
+  margin-bottom: 1.5rem;
+}
+
+.about,
+.experience,
+.contact {
+  margin-bottom: 1.5rem;
+}
+
+.about h2,
+.experience h2,
+.contact h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  color: #00a6ac;
+}
+
+ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
