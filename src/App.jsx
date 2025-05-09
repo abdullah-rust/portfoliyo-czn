@@ -76,7 +76,7 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 3 }}
           >
-            <strong>Email:</strong> hello@reallygreatsite.com
+            <strong>Email:</strong> dj731837@gmail.com
           </motion.p>
           <motion.p
             initial={{ opacity: 0, x: -100 }}
